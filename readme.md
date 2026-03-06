@@ -227,12 +227,6 @@ SHAP is used to explain both global and individual predictions.
 | Feature store | Pre-compute RFM daily, serve via feature store |
 | Monitoring | Track CTR, conversion rate, PSI on feature distributions |
 
----
-
-## 👩‍💻 Author
-
-**Sonal Mishra** — Data Scientist
-[GitHub](https://github.com/Sonal12061) 
 
 ---
 
