@@ -106,7 +106,8 @@ Three groups of features capture different dimensions of the recommendation prob
 | `CategoryAffinity` | Fraction of customer's purchases in this product's category (0–1) |
 | `CategoryCount` | Raw count of customer's purchases in this category |
 | `TimesBought` | Number of times this customer has bought this specific product |
-| `HasBoughtProduct` | Binary — 1 if purchased, 0 for negative samples |
+
+> **Note:** `HasBoughtProduct` (1 = purchased, 0 = negative sample) is used to construct the **label vector `y`**, not as a model feature. It is excluded from `X` at training time.
 
 ---
 
